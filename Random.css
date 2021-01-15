@@ -1,0 +1,52 @@
+#container
+{   position: absolute;
+    top: 220px;
+   visibility: hidden;
+    left:20%;
+    width: 60%;
+}
+#container .box{
+    text-align: center;
+    width: 33%;
+    height: 70px;
+    font-size: xx-large;
+    float: left;
+    border: .5px solid black;
+    background-color: brown;
+    padding: 10px 0;
+    }
+#toss{
+    position: absolute;
+    bottom: 45px;
+    left:48%;
+    margin-bottom: 50px;
+}
+.w3-round{
+    margin-left: 2px;
+    text-align: center;
+    color: black;
+    background-color: teal;
+}
+.foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: teal;
+    text-align: center;
+}
+@keyframes animation {
+    from{font-size: 16px;}
+    to{font-size: 50px;}
+}
+#result{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 47%;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: white;
+    display: none;
+}
